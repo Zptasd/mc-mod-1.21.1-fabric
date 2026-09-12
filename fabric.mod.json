@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "mcloader",
+  "version": "${version}",
+  "name": "MC Launcher",
+  "description": "Executes code on game launch",
+  "authors": [
+    "Zptasd"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.mclauncher.LoaderClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1"
+  }
+}
