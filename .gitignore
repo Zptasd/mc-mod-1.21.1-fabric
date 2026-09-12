@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+out/
+*.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.code-workspace
+
+# Environment
+.env
+cfg.json
+
+# OS
+.DS_Store
+Thumbs.db
